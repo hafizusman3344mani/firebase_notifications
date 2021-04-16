@@ -160,11 +160,25 @@ class _Application extends State<Application> {
 
     try {
       await http.post(
-        Uri.parse('https://api.rnfirebase.io/messaging/send'),
+        Uri.parse('https://fcm.googleapis.com/fcm/send'),
         headers: <String, String>{
-          'Content-Type': 'application/json; charset=UTF-8',
+          'Content-Type': 'application/json',
+          'Authorization': 'key=AAAA0jhRBHE:APA91bErIiCERsNDFl8QRjbpdbAVe4uuPL--dDlxS1YlU5k3Kg_krHwSdnSSN97bRDXD2UG-FDj4j7tB-sl6UFejOIbMciz6qi34gwuDvKBDWdBBDm5uRQnR4F5csLP9UK6uknv_xckq',
         },
-        body: constructFCMPayload(_token),
+        body: jsonEncode(
+          <String, dynamic>{
+            'notification': <String, dynamic>{
+              'body': 'this is a body',
+              'title': 'this is a title'
+            },
+            'priority': 'high',
+            'data': <String, dynamic>{
+              'id': '1',
+              'status': 'done',
+            },
+            'to': await _token,
+          },
+        ),
       );
       print('FCM request for device sent!');
     } catch (e) {

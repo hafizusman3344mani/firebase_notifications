@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf7ef83b-7c70-41b7-9be4-edb0a2124d45" name="Default Changelist" comment="" />
+    <list default="true" id="cf7ef83b-7c70-41b7-9be4-edb0a2124d45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qtwydrwk3BmLTXJZg3xQCX2HH6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,21 +53,63 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1617924459468" />
-    <state width="1306" height="175" key="GridCell.Tab.0.bottom" timestamp="1617930657511">
+    <state width="709" height="466" key="DebuggerActiveHint" timestamp="1618546903584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617930657511" />
-    <state width="1306" height="175" key="GridCell.Tab.0.center" timestamp="1617930657511">
+    <state width="709" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1618546903584" />
+    <state x="537" y="261" key="Github.ShareDialog" timestamp="1618210720422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617930657511" />
-    <state width="1306" height="175" key="GridCell.Tab.0.left" timestamp="1617930657511">
+    <state x="537" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1618210720422" />
+    <state x="409" y="69" key="Github.UntrackedFilesDialog" timestamp="1618210729998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617930657511" />
-    <state width="1306" height="175" key="GridCell.Tab.0.right" timestamp="1617930657511">
+    <state x="409" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1618210729998" />
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom" timestamp="1618546962715">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617930657511" />
+    <state width="1306" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618546962715" />
+    <state width="1306" height="176" key="GridCell.Tab.0.center" timestamp="1618546962715">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618546962715" />
+    <state width="1306" height="176" key="GridCell.Tab.0.left" timestamp="1618546962715">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618546962715" />
+    <state width="1306" height="176" key="GridCell.Tab.0.right" timestamp="1618546962715">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618546962715" />
+    <state x="460" y="49" key="svn.repositoryBrowser" timestamp="1618210699247">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="460" y="49" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1618210699247" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>154</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>155</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>160</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>178</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
